@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Menu"
+        android:id="@+id/sort_list_by"
+        android:icon="@drawable/ic_sort_white_24dp"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <group android:id="@+id/menu_sort_by">
+                <item
+                    android:id="@+id/acion_list"
+                    android:title="List"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_grid"
+                    android:title="Grid"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_cardview"
+                    android:title="With Cardview"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
